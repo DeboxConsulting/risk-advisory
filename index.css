@@ -32,3 +32,45 @@ body {
   font-weight: 700;
   font-size: 13px;
 }
+
+.lets-discuss {
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: rgb(52, 52, 52);
+  font-size: 32px;
+  margin: 0;
+}
+
+.number-email-address {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.number-email-address div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.number-email-address a {
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.number-email-address a:hover {
+  color: #bd1622;
+}
+
+.number-email-address p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
